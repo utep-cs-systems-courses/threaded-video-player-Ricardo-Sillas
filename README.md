@@ -20,15 +20,15 @@ use the follwing commands (note that ordering is important):
 
 ## Allowed libraries
 The purpose of this lab is to implement and use a producer-consumer system.
-Python already has several synchronized bounded buffers and queues available 
-as libraries. You *may not* use any of these as they would prevent you from 
+Python already has several synchronized bounded buffers and queues available
+as libraries. You *may not* use any of these as they would prevent you from
 demonstrating the knowledge you've gained. The only threading/synchronization
 objects or methods you may use are mutexes and semaphores (we suggest using
 the threads api).
 
 ## File List
 ### ExtractFrames.py
-Extracts a series of frames from the video contained in 'clip.mp4' and saves 
+Extracts a series of frames from the video contained in 'clip.mp4' and saves
 them as jpeg images in sequentially numbered files with the pattern
 'frame_xxxx.jpg'.
 
@@ -42,7 +42,7 @@ Loads a series of frames sequently from files with the names
 'grayscale_xxxx.jpg' and displays them with a 42ms delay.
 
 ### ExtractAndDisplay.py
-Loads a series of framss from a video contained in 'clip.mp4' and displays 
+Loads a series of framss from a video contained in 'clip.mp4' and displays
 them with a 42ms delay
 
 ## Requirements
@@ -61,6 +61,3 @@ them in sequence
   * Producer/consumer qeueus must be bounded at ten frames
 
 Note: You may have ancillary objects and method in order to make you're code easer to understand and implement.
-
-
-
