@@ -1,5 +1,4 @@
 # ConvertToGrayscale.py Lab
-# ========================
 
 For this lab, we were supposed to create a python file that would take a
 video and would transfer it to grayscale using threads and queues. These
@@ -13,7 +12,6 @@ This file that we made gets the video that was given to us, which would be
 the "clip.mp4".
 
 ### How To Run The Python File
-### ==========================
 
 In order to run the file, you must input "python3 ConvertToGrayscale.py" in
 the terminal, and it should run the file, telling you which frames were
